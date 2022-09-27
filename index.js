@@ -164,6 +164,13 @@ class instance extends instance_skel {
 				regex: this.REGEX_NUMBER,
 			},
 			{
+				type: 'textinput',
+				id: 'params',
+				label: 'params',
+				tooltip: 'Any other URL parameters',
+				width: 6
+			},
+			{
 				type: 'checkbox',
 				id: 'reconnect',
 				label: 'Reconnect',
